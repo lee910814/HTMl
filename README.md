@@ -11,3 +11,20 @@ holder
   
   ##### value는 input의 기본값을 지정할 수 있다. 기본값이 아닌 다른 문구를 지정하고 싶다면 placeholder를 사용하여 작성할 수 있다.
   ##### 둘 다 문구를 나타내지만 value로 지정한 기본값은 그 상태로 버튼을 누르면 기본값 자체로 전송되지만 placeholder는 버튼을 눌러도 전송되지 않는다
+  
+  <hr>
+  # CSS
+  
+  ####inline style은 쉽고 간단하지만 꾸미는 데에 한계가 있고 재사용이 불가하다.
+  
+  ####internal style은 <style>과</style>사이에 CSS를 넣는 것이다. 예를 들면
+  
+  <style>
+    h1{
+      color : blue;
+    }
+  </style>
+  
+  로 표현한다. 이 방법은 한번에 꾸밀 수 있으나 다른 html문서에서 사용할 수 없다는 단점이 존재한다.
+  
+  ####linking style은 CSS를 만들고 html파일과 연결하는 형태이다. 
